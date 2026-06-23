@@ -190,7 +190,7 @@ If you find a security issue, please open a private report rather than a public 
 
 ## License
 
-Released under the [MIT License](LICENSE).
+Released under the [GNU General Public License v3.0](LICENSE).
 
 ---
 
