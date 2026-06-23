@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# Secrets — NEVER commit (release signing + machine-local config)
+# ---------------------------------------------------------------------------
+keystore.properties
+release.keystore
+*.keystore
+*.jks
+!debug.keystore
+local.properties
+
+# Local AI/agent instructions (not part of the published project)
+CLAUDE.md
+.claude/
+
+# ---------------------------------------------------------------------------
+# Build outputs & caches
+# ---------------------------------------------------------------------------
+# Unanchored so it also catches the vendored terminal-emulator/ and terminal-view/ modules
+build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild
+.cxx
+
+# ---------------------------------------------------------------------------
+# Release artifacts — distribute via GitHub Releases, not the repo
+# ---------------------------------------------------------------------------
+/dist/
+/releases/
+*.apk
+*.aab
+
+# ---------------------------------------------------------------------------
+# IDE / OS noise
+# ---------------------------------------------------------------------------
+*.iml
+/.idea
+.DS_Store

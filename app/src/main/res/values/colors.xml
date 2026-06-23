@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0F2A1E</color>
+    <!-- Matches InkBackground in the Compose theme so launch shows no white flash. -->
+    <color name="ink_background">#FF0C0F14</color>
+</resources>

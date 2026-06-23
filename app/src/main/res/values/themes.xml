@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Window theme used before Compose draws. Compose owns all in-app colors via
+      SshManagerTheme; this only sets the pre-draw window background to the app's ink so
+      launch shows no white flash, and uses a dark no-action-bar base for the system bars.
+    -->
+    <style name="Theme.SshManager" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ink_background</item>
+        <item name="android:statusBarColor">@color/ink_background</item>
+        <item name="android:navigationBarColor">@color/ink_background</item>
+    </style>
+</resources>
